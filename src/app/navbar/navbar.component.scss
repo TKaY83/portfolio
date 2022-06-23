@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+
+    &:hover{
+        color: #FA2759;
+    }
+}
+img{
+    cursor: pointer;
+    height: 60px;
+}
+.navbar{
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: black;
+    
+}
