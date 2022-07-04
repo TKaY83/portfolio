@@ -1,0 +1,78 @@
+.about_me_section {
+    background-color: #1a1a1a;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.top_section {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #2DFCD8;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.small_picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding-right: 50px;
+}
+
+h2 {
+    color: white;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.top_right_text{
+    padding-left: 70px;
+}
+
+.bottom_section {
+    padding-top: 130px;
+    padding-left: 195px;
+    padding-right: 195px;
+    height: calc(60% - 131px);
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_icons{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_four_sections{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.journey_headline{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text_div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2DFCD8;
+    width:79px;
+    height: 79px;
+    border-radius: 50%;
+
+    img{
+        width: 28px;
+        height: 28px;
+    }
+}
