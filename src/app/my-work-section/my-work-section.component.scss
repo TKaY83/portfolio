@@ -70,6 +70,10 @@ h3{
     width: 390px;
     height: 310px;
     background-color: white;
+
+    &:hover {
+        opacity: 0.2;
+    }
 }
 
 .button_try {
@@ -101,9 +105,4 @@ h3{
     cursor: pointer;
     object-fit: cover;
 
-
-    &:hover {
-        opacity: 0.2;
-
-    }
 }
