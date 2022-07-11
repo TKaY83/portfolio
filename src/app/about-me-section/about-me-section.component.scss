@@ -1,8 +1,13 @@
 .about_me_section {
     background-color: #1a1a1a;
     color: white;
-    height: 100vh;
+    // height: 100vh;
     text-align: center;
+}
+
+.section_distance{
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .top_section {
@@ -13,6 +18,7 @@
     border-bottom: 2px solid #2DFCD8;
     margin-right: 120px;
     margin-left: 120px;
+    padding-bottom: 48px;
 }
 
 .small_picture {
@@ -33,7 +39,7 @@ h2 {
 }
 
 .bottom_section {
-    padding-top: 130px;
+    padding-top: 48px;
     padding-left: 195px;
     padding-right: 195px;
     height: calc(60% - 131px);
