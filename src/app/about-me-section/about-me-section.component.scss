@@ -82,3 +82,22 @@ h2 {
         height: 28px;
     }
 }
+
+
+@media (max-width: 850px) {
+    .bottom_section{
+        flex-direction: column;
+    }
+
+    .top_section{
+        flex-direction: column;
+    }
+
+    .small_picture{
+        margin-right: 0px;
+    }
+
+    .top_right_text{
+        padding-left: 0px;
+    }
+}

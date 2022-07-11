@@ -107,3 +107,18 @@ h4 {
         border-color: #2DFCD8;
     }
 }
+
+
+@media (max-width: 850px){
+    .name{
+        width: 90%;
+    }
+
+    .mail{
+        width: 90%;
+    }
+    
+    .text{
+        width: 90%;
+    }
+}

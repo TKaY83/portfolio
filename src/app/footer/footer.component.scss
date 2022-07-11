@@ -30,3 +30,11 @@ a{
 .social_icons_div{
     display: flex;
 }
+
+
+@media (max-width: 850px) {
+    .footer{
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}
