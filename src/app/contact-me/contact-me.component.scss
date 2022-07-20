@@ -25,9 +25,8 @@ h4 {
     // height: 100vh;
 }
 
-.section_distance{
-    padding-top: 48px;
-    padding-bottom: 48px;
+.section_distance {
+    padding: 48px;
 }
 
 .top_section {
@@ -83,7 +82,7 @@ h4 {
     }
 }
 
-.sendbutton_div{
+.sendbutton_div {
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
@@ -109,16 +108,16 @@ h4 {
 }
 
 
-@media (max-width: 850px){
-    .name{
-        width: 90%;
-    }
+// @media (max-width: 850px){
+//     .name{
+//         width: 90%;
+//     }
 
-    .mail{
-        width: 90%;
-    }
-    
-    .text{
-        width: 90%;
-    }
-}
+//     .mail{
+//         width: 90%;
+//     }
+
+//     .text{
+//         width: 90%;
+//     }
+// }

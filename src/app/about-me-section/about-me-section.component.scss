@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.section_distance{
+.section_distance {
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -30,11 +30,10 @@
 
 h2 {
     color: white;
-    margin-top: 0;
     font-size: 36px;
 }
 
-.top_right_text{
+.top_right_text {
     padding-left: 70px;
 }
 
@@ -47,37 +46,37 @@ h2 {
     justify-content: center;
 }
 
-.bottom_icons{
+.bottom_icons {
     display: flex;
     justify-content: center;
 }
 
-.bottom_four_sections{
+.bottom_four_sections {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.journey_headline{
+.journey_headline {
     font-size: 22px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.text_div{
+.text_div {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.icon_circle{
+.icon_circle {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2DFCD8;
-    width:79px;
+    width: 79px;
     height: 79px;
     border-radius: 50%;
 
-    img{
+    img {
         width: 28px;
         height: 28px;
     }
@@ -85,19 +84,29 @@ h2 {
 
 
 @media (max-width: 850px) {
-    .bottom_section{
+    .bottom_section {
         flex-direction: column;
     }
 
-    .top_section{
+    .top_section {
         flex-direction: column;
     }
 
-    .small_picture{
+    .small_picture {
         margin-right: 0px;
     }
 
-    .top_right_text{
+    .top_right_text {
         padding-left: 0px;
+    }
+
+
+    .bottom_section {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .icon_circle {
+        margin-top: 20px;
     }
 }
