@@ -67,7 +67,9 @@
 .main_picture {
     width: 400px;
     height: 400px;
-    border-radius: 50%
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .welcome_section_bottom {
@@ -103,11 +105,14 @@
 @media (max-width: 850px) {
     .welcome_text {
         font-size: 34px;
+        text-align: center;
+        margin-bottom: 16px;
     }
 
     .welcome_section_top {
         flex-direction: column-reverse;
         align-items: center;
+        height: 67%;
     }
 
     .contact_btn_div {
