@@ -1,9 +1,18 @@
 <div class="navbar">
     <img src="assets/img/td_logo_white.png">
-    <div>
-        <a href="">HOME</a> 
+    <div class="navbar_menu">
+        <a href="">HOME</a>
         <a href="#my_skills">SKILLS</a>
         <a href="#my_work">MY WORK</a>
         <a href="#about_me">ABOUT</a>
     </div>
+    <div class="navbar_burger">
+        <img src="assets\img\menu.png" mat-button [matMenuTriggerFor]="menu">
+        <mat-menu class="navbar_burger" #menu="matMenu">
+            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item>Item 2</button>
+            <button mat-menu-item>Item 2</button>
+        </mat-menu>
+    </div>
+
 </div>

@@ -24,8 +24,23 @@ img {
 
 }
 
+.navbar_menu{
+    display: block;
+}
+
+.navbar_burger{
+    display: none;
+}
 @media (max-width: 850px) {
-    .navbar {
-        flex-direction: column;
+    // .navbar {
+    //     flex-direction: column;
+
+    // }
+    .navbar_menu{
+        display: none;
+    }
+    
+    .navbar_burger{
+        display: block;
     }
 }
