@@ -1,13 +1,14 @@
-h3{
+h3 {
     font-size: 24px;
     color: #FA2759;
 }
+
 .my_work_section {
     background-color: black;
     // height: 100vh;
 }
 
-.section_distance{
+.section_distance {
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -64,7 +65,7 @@ h3{
     width: 1000px;
 }
 
-.skill_preview_div{
+.skill_preview_div {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -79,13 +80,13 @@ h3{
     opacity: 0.8;
 }
 
-.description_hidden{
+.description_hidden {
     padding-top: 32px;
     width: 100%;
     height: 100%;
     opacity: 0;
 
-    &:hover{
+    &:hover {
         opacity: 1;
         background-color: rgba(255, 255, 255, 0.8)
     }
@@ -119,27 +120,28 @@ h3{
     cursor: pointer;
     object-fit: cover;
     z-index: -1;
-
 }
 
 
-// @media (max-width: 850px) {
-//     .button_pink {
-//         cursor: pointer;
-//         width: 150px;
-//         background-color: transparent;
-//         font-size: 18px;
-//         border-color: #FA2759;
-//         border: 2px solid;
-//         color: #FA2759;
-//         padding: 24px;
-//         margin-left: 4px;
-//         margin-right: 4px;
-    
-//         &:hover {
-//             background-color: #FA2759;
-//             color: white;
-//             border-color: #FA2759;
-//         }
-//     }
-// }
+@media (max-width: 850px) {
+
+    .button_pink {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .skill_preview_div {
+        min-width: 330px;
+    }
+
+    .skill_preview_div{
+        transform: scale(0.95);
+    }
+
+    .preview_div{
+        width: unset;
+    }
+}
+

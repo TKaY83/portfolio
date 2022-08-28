@@ -36,6 +36,10 @@ img {
     //     flex-direction: column;
 
     // }
+
+    a{
+        margin-left: 0px;
+    }
     .navbar_menu{
         display: none;
     }
@@ -43,4 +47,14 @@ img {
     .navbar_burger{
         display: block;
     }
+}
+
+@media (max-width: 550px) {
+
+    .navbar {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+
 }
