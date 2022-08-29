@@ -125,26 +125,54 @@
     }
 
     .welcome_text_div {
-        padding-left: 0px ;
+        padding-left: 0px;
         justify-content: center;
         padding-top: 15px;
         padding-bottom: 15px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
     .welcome_section_top {
         height: unset;
     }
 
-    .welcome_text{
+    .welcome_text {
         font-size: 20px;
     }
 
-    .main_picture{
+    .main_picture {
         width: 220px;
         height: 220px;
     }
 
 }
 
+@media (max-width: 850px) and (orientation : landscape) {
+    .welcome-section {
+        height: unset;
+    }
+
+    .welcome_section_top {
+        flex-direction: unset;
+
+    }
+
+    .welcome_section_top_right {
+        padding-right: 70px;
+    }
+
+    .welcome_text_div {
+        padding-top: unset;
+        padding-bottom: 4px;
+    }
+
+    .main_picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .arrow {
+        padding-top: 12px;
+    }
+}
