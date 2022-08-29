@@ -1,40 +1,45 @@
-img{
+img {
     cursor: pointer;
     width: 50px;
     height: 50px;
     margin-left: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(173, 168, 168);
     font-weight: 400;
     font-size: 18px;
 
-    &:hover{
+    &:hover {
         font-weight: 600;
         text-decoration-line: underline;
         text-underline-offset: 2px;
     }
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:  120px;
-    padding-right:  120px;
-    height: 200px;
+    padding-left: 120px;
+    padding-right: 120px;
+    height: 100px;
 }
 
-.social_icons_div{
+.social_icons_div {
     display: flex;
 }
 
 
 @media (max-width: 850px) {
-    .footer{
+    .footer {
         justify-content: center;
+        align-items: center;
         flex-direction: column-reverse;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }

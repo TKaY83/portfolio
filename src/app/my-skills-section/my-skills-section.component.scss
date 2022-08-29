@@ -19,7 +19,6 @@
 }
 
 .top_section {
-    height: 20%;
     display: flex;
     justify-content: center;
 }
@@ -75,4 +74,11 @@
     height: 70px;
     border-radius: 50%;
     background-color: white
+}
+
+
+@media (max-width: 410px) {
+    .my_skills_text {
+        font-size: 28px;
+    }
 }

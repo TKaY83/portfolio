@@ -131,3 +131,20 @@
         padding-bottom: 15px;
     }
 }
+
+@media (max-width: 320px) {
+    .welcome_section_top {
+        height: unset;
+    }
+
+    .welcome_text{
+        font-size: 20px;
+    }
+
+    .main_picture{
+        width: 220px;
+        height: 220px;
+    }
+
+}
+

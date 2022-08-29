@@ -123,25 +123,46 @@ h3 {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 410px) {
+
+    .my_work_text{
+        font-size: 28px;
+    }
 
     .button_pink {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .skill_preview_div {
+        margin-left: 8px;
+        margin-right: 8px;
+        min-width:320px;
+        max-width: 320px;
+    }
+
+    .skill_preview_div {
+        transform: scale(0.9);
+    }
+
+    .preview_div {
+        width: unset;
     }
 }
 
-@media (max-width: 410px) {
+
+@media (max-width: 360px) {
+
+    .button_pink {
+        padding: 4px;
+        font-size: 12px;
+    }
 
     .skill_preview_div {
-        min-width: 330px;
+        min-width:260px;
+        max-width: 260px;
     }
 
-    .skill_preview_div{
-        transform: scale(0.95);
-    }
 
-    .preview_div{
-        width: unset;
-    }
+
 }
 

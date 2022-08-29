@@ -108,16 +108,8 @@ h4 {
 }
 
 
-// @media (max-width: 850px){
-//     .name{
-//         width: 90%;
-//     }
-
-//     .mail{
-//         width: 90%;
-//     }
-
-//     .text{
-//         width: 90%;
-//     }
-// }
+@media (max-width: 410px) {
+    h1 {
+        font-size: 36px;
+    }
+}
