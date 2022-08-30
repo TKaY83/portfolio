@@ -54,19 +54,23 @@ h2 {
 }
 
 .bottom_four_sections {
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 160px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .journey_headline {
+    height: 54px;
     font-size: 22px;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
 
 .text_div {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .icon_circle {
@@ -88,6 +92,7 @@ h2 {
 @media (max-width: 850px) {
     .bottom_section {
         flex-direction: column;
+        align-items: center;
     }
 
     .top_section {
