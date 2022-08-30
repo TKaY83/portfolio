@@ -132,21 +132,6 @@
     }
 }
 
-@media (max-width: 380px) {
-    .welcome_section_top {
-        height: unset;
-    }
-
-    .welcome_text {
-        font-size: 20px;
-    }
-
-    .main_picture {
-        width: 220px;
-        height: 220px;
-    }
-
-}
 
 @media (max-width: 850px) and (orientation : landscape) {
     .welcome-section {
@@ -175,4 +160,20 @@
     .arrow {
         padding-top: 12px;
     }
+}
+
+@media (max-width: 410px) {
+    .welcome_section_top {
+        height: unset;
+    }
+
+    .welcome_text {
+        font-size: 20px;
+    }
+
+    .main_picture {
+        width: 220px;
+        height: 220px;
+    }
+
 }
