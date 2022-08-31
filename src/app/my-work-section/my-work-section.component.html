@@ -2,8 +2,9 @@
     <div class="top_section">
         <h2 class="my_work_text">MY WORK</h2>
         <div class="buttons_div">
-            <button class="button_pink">All</button><button class="button_pink">Angular</button><button
-                class="button_pink">JavaScript</button>
+            <button (click)="showAllFunc()" class="button_pink">All</button>
+            <button (click)="showAngularFunc()" class="button_pink">Angular</button>
+            <button (click)="showJavaScriptFunc()" class="button_pink">JavaScript</button>
         </div>
     </div>
 
@@ -11,7 +12,7 @@
 
         <div class="preview_div">
 
-            <div class="skill_preview_div">
+            <div *ngIf="showJavaScript" class="skill_preview_div">
                 <div class="description_hidden">
                     <h3>Join</h3>
                     <p>JavaScript - based Kanbanboard with Bootstrap</p>
@@ -21,7 +22,7 @@
                 <img class="skill_preview_img" src="assets/img/join.jpg">
             </div>
 
-            <div class="skill_preview_div">
+            <div *ngIf="showJavaScript" class="skill_preview_div">
                 <div class="description_hidden">
                     <h3>El Pollo Locco</h3>
                     <p>JavaScript - based Jump & Run game with Object orientation</p>
@@ -31,7 +32,7 @@
                 <img class="skill_preview_img" src="assets/img/elpollolocco.jpg">
             </div>
 
-            <div class="skill_preview_div">
+            <div *ngIf="showAngular" class="skill_preview_div">
                 <div class="description_hidden">
                     <h3>Ring of Fire</h3>
                     <p>Angular - based Cardgame</p>
@@ -41,7 +42,7 @@
                 <img class="skill_preview_img" src="assets/img/ringoffire.jpg">
             </div>
 
-            <div class="skill_preview_div">
+            <div *ngIf="showAngular" class="skill_preview_div">
                 <div class="description_hidden">
                     <h3>In Progress</h3>
                     <p>Description of the project</p>

@@ -2,7 +2,8 @@ img {
     cursor: pointer;
     width: 50px;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a {
@@ -41,5 +42,9 @@ a {
         padding-right: 60px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    a {
+        font-size: 14px;
     }
 }
