@@ -133,9 +133,13 @@
 }
 
 
-@media (max-width: 850px) and (orientation : landscape) {
+@media (max-width: 1200px) and (orientation : landscape) {
     .welcome-section {
         height: unset;
+    }
+
+    .welcome_text{
+        font-size: 32px;
     }
 
     .welcome_section_top {
