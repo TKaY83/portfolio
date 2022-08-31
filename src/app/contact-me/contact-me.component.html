@@ -4,14 +4,14 @@
         <div class="top_section">
             <h1>Contact Me.</h1><br>
             <span class="span_text">Get in touch via the form below, or by emailing <a
-                    href="">mail@tuncay-dagdelen.com</a>
+                    href="">info@tuncay-dagdelen.com</a>
             </span>
         </div>
 
-        <form onsubmit="" class="form" action="">
+        <form action="https://tuncay-dagdelen.de/portfolio.tuncay-dagdelen.de/send_mail.php" method="POST" class="form" action="">
             <div>
                 <h4>Name</h4>
-                <input required class="name" placeholder="Enter your Name" type="text">
+                <input name="name"required class="name" placeholder="Enter your Name and / or Company" type="text">
             </div>
             <div>
                 <h4>E-Mail</h4>
@@ -20,11 +20,11 @@
             </div>
             <div>
                 <h4>Message</h4>
-                <textarea required class="text" placeholder="Enter your Message" name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="message" required class="text" placeholder="Enter your Message" name="" id="" cols="30" rows="10"></textarea>
 
             </div>
             <div class="sendbutton_div">
-                <button class="button_blue">Send</button>
+                <button type="submit" class="button_blue">Send</button>
             </div>
         </form>
     </div>

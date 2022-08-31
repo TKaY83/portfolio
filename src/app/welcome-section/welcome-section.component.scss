@@ -89,6 +89,7 @@
     .welcome_text {
         font-size: 54px;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -99,6 +100,10 @@
     .main_picture {
         width: 250px;
         height: 250px;
+    }
+
+    .arrow {
+        padding-bottom: unset;
     }
 }
 
@@ -134,9 +139,9 @@
 
 
 @media (max-width: 1200px) and (orientation : landscape) {
-    .welcome-section {
-        height: unset;
-    }
+    // .welcome-section {
+    //     height: unset;
+    // }
 
     .welcome_text{
         font-size: 32px;

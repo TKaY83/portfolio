@@ -95,6 +95,23 @@ h2 {
         align-items: center;
     }
 
+    .bottom_four_sections {
+        margin-top: 28px;
+        max-width: 360px;
+        min-width: 360px;
+    }
+
+    .first_text{
+        max-width: 360px;
+        min-width: 360px;
+    }
+
+    .journey_headline {
+        height: unset;
+
+        
+    }
+
     .top_section {
         flex-direction: column;
     }
@@ -133,5 +150,16 @@ h2 {
     .small_picture {
         width: 200px;
         height: 200px;
+    }
+
+    .bottom_four_sections {
+        margin-top: 28px;
+        max-width: 270px;
+        min-width: 270px;
+    }
+
+    .first_text{
+        max-width: 270px;
+        min-width: 270px;
     }
 }

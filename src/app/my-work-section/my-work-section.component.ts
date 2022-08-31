@@ -12,6 +12,7 @@ export class MyWorkSectionComponent implements OnInit {
   toggleAngular = false;
   toggleJavaScript = false;
   toggleAll = true;
+
   ngOnInit(): void {
   }
 
