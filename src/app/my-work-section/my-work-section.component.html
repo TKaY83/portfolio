@@ -2,9 +2,9 @@
     <div class="top_section">
         <h2 class="my_work_text">MY WORK</h2>
         <div class="buttons_div">
-            <button (click)="showAllFunc()" class="button_pink">All</button>
-            <button (click)="showAngularFunc()" class="button_pink">Angular</button>
-            <button (click)="showJavaScriptFunc()" class="button_pink">JavaScript</button>
+            <button [class.toggle_hover]="toggleAll" (click)="showAllFunc()" class="button_pink">All</button>
+            <button [class.toggle_hover]="toggleAngular" (click)="showAngularFunc()" class="button_pink">Angular</button>
+            <button [class.toggle_hover]="toggleJavaScript" (click)="showJavaScriptFunc()" class="button_pink">JavaScript</button>
         </div>
     </div>
 
