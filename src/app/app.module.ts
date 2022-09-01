@@ -15,6 +15,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import { ImprintComponent } from './imprint/imprint.component';
 import { HomeComponent } from './home/home.component';
+import { ContactSuccessComponent } from './contact-success/contact-success.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HomeComponent } from './home/home.component';
     ContactMeComponent,
     FooterComponent,
     ImprintComponent,
-    HomeComponent
+    HomeComponent,
+    ContactSuccessComponent
   ],
   imports: [
     BrowserModule,
