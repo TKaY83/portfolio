@@ -1,3 +1,5 @@
+$size: 10rem;
+
 a {
     text-decoration: none;
     color: #2DFCD8;
@@ -104,6 +106,7 @@ h4 {
         background-color: #2DFCD8;
         color: white;
         border-color: #2DFCD8;
+        box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.4);
     }
 }
 

@@ -1,3 +1,5 @@
+$size: 10rem;
+
 .welcome-section {
     height: calc(100vh - 80px);
     color: white;
@@ -20,6 +22,10 @@
     .e {
         color: #2DFCD8;
     }
+}
+
+.magnetic_container{
+    padding-bottom: 16px;
 }
 
 
@@ -55,6 +61,7 @@
         background-color: #2DFCD8;
         color: white;
         border-color: #2DFCD8;
+        box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.4);
     }
 }
 
@@ -71,12 +78,6 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
-
-    // @media (max-height: 800px) {
-    //     width: 200px;
-    //     height: 200px;
-
-    // }
 }
 
 .welcome_section_bottom {
@@ -86,15 +87,44 @@
     align-items: flex-end;
 }
 
-.arrow {
-    cursor: pointer;
-    padding-bottom: 80px;
+@media (min-width: 1200px){
+    .magnetic_container{
+        cursor: pointer;
+        background-color: transparent;
+        position: relative;
+        padding: $size * 0.61;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .magnetic_element{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            width: $size * 0.50;
+            height: $size * 0.50;
+            pointer-events: none;
+        }
+        
+        .magnetic_background{
+            background-color: transparent;
+            width: $size * 0.50;
+            height: $size * 0.50;
+            position: absolute;
+            z-index: 1;
+            border: 1px solid #2DFCD8;
+            border-radius: 50%;
+            pointer-events: none;
+            box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.95); 
+        }
+    }
 }
-
 
 @media (max-width: 1400px) {
     .welcome_text {
-        font-size: 54px;
+        font-size: 44px;
     }
 
 }
@@ -116,10 +146,6 @@
 
     .welcome_text{
         font-size: 32px;
-    }
-
-    .arrow {
-        padding-bottom: 8px;
     }
 }
 
@@ -155,9 +181,7 @@
 
 
 @media (max-width: 1200px) and (orientation : landscape) {
-    // .welcome-section {
-    //     height: unset;
-    // }
+
 
     .welcome_text {
         font-size: 22px;
@@ -190,9 +214,12 @@
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 480px) {
     .welcome_section_top {
         height: unset;
+    }
+    .welcome_section_top_right{
+        padding-right: 16px;
     }
 
     .welcome_text {
@@ -204,4 +231,28 @@
         height: 190px;
     }
 
+    .magnetic_container{
+        display: none;
+    }
+}
+@media (max-width: 480px) and (orientation : landscape) {
+    .welcome_section_top {
+        height: unset;
+    }
+    .welcome_section_top_right{
+        padding-right: 16px;
+    }
+
+    .welcome_text {
+        font-size: 20px;
+    }
+
+    .main_picture {
+        width: 190px;
+        height: 190px;
+    }
+
+    .magnetic_container{
+        display: none;
+    }
 }
