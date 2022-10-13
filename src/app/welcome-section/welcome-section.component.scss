@@ -24,7 +24,7 @@ $size: 10rem;
     }
 }
 
-.magnetic_container{
+.magnetic_container {
     display: none;
 }
 
@@ -87,8 +87,8 @@ $size: 10rem;
     align-items: flex-end;
 }
 
-@media (min-width: 1200px){
-    .magnetic_container{
+@media (min-width: 1200px) {
+    .magnetic_container {
         cursor: pointer;
         background-color: transparent;
         position: relative;
@@ -97,8 +97,8 @@ $size: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        .magnetic_element{
+
+        .magnetic_element {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -107,8 +107,8 @@ $size: 10rem;
             height: $size * 0.50;
             pointer-events: none;
         }
-        
-        .magnetic_background{
+
+        .magnetic_background {
             background-color: transparent;
             width: $size * 0.50;
             height: $size * 0.50;
@@ -117,7 +117,7 @@ $size: 10rem;
             border: 1px solid #2DFCD8;
             border-radius: 50%;
             pointer-events: none;
-            box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.95); 
+            box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.95);
         }
     }
 }
@@ -139,21 +139,31 @@ $size: 10rem;
         height: 190px;
     }
 
-    .button_blue{
+    .button_blue {
         padding-left: 45px;
         padding-right: 45px;
     }
 
-    .welcome_text{
+    .welcome_text {
         font-size: 32px;
+    }
+}
+
+@media (max-width: 850px) and (min-height: 600px) {
+    .welcome-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media (max-width: 850px) {
 
-    .welcome-section{
+    .welcome-section {
         height: 100vh;
     }
+
     .welcome_text {
         font-size: 24px;
         text-align: center;
@@ -206,8 +216,8 @@ $size: 10rem;
     }
 
     .main_picture {
-        width: 240px;
-        height: 240px;
+        width: 230px;
+        height: 230px;
     }
 
     .arrow {
@@ -221,7 +231,8 @@ $size: 10rem;
     .welcome_section_top {
         height: unset;
     }
-    .welcome_section_top_right{
+
+    .welcome_section_top_right {
         padding-right: 16px;
     }
 
@@ -234,16 +245,18 @@ $size: 10rem;
         height: 190px;
     }
 
-    .magnetic_container{
+    .magnetic_container {
         display: none;
     }
 
 }
+
 @media (max-width: 480px) and (orientation : landscape) {
     .welcome_section_top {
         height: unset;
     }
-    .welcome_section_top_right{
+
+    .welcome_section_top_right {
         padding-right: 16px;
     }
 
@@ -256,8 +269,8 @@ $size: 10rem;
         height: 190px;
     }
 
-    .magnetic_container{
+    .magnetic_container {
         display: none;
     }
-    
+
 }

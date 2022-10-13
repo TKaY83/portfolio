@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MySkillsSectionComponent implements OnInit {
   skills: any = [
     {
-      icon: 'java_script.png',
+      icon: 'js.png',
       name: 'JavaScript'
     },
     {
@@ -16,16 +16,20 @@ export class MySkillsSectionComponent implements OnInit {
       name: 'Angular'
     },
     {
-      icon: 'Group_205.png',
-      name: 'HTML / SCSS'
+      icon: 'html.png',
+      name: 'HTML5'
     },
     {
-      icon: 'Group_226.png',
+      icon: 'sass.png',
+      name: 'SASS / SCSS'
+    },
+    {
+      icon: 'scrum.png',
       name: 'SCRUM'
     },
     {
       icon: 'Git-Icon-1788C 2.png',
-      name: 'GIT'
+      name: 'GIT / GITHUB'
     },
     {
       icon: 'Group.png',
@@ -36,12 +40,8 @@ export class MySkillsSectionComponent implements OnInit {
       name: 'Rest API'
     },
     {
-      icon: 'icons8-test-lab-96 2.png',
-      name: 'Test Automation'
-    },
-    {
-      icon: 'icons8-database-52 2.png',
-      name: 'Databases'
+      icon: 'firebase.png',
+      name: 'Firebase'
     },
   ];
   constructor() { }
