@@ -13,8 +13,6 @@ $size: 10rem;
 }
 
 .welcome_section_top_left {
-    width: 100%;
-
     .name {
         color: #FA2759;
     }
@@ -28,16 +26,16 @@ $size: 10rem;
     display: none;
 }
 
-
 .welcome_text_div {
     padding-left: 120px;
     height: 60%;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .welcome_text {
-    font-size: 64px;
+    font-size: 58px;
 }
 
 .contact_btn_div {
@@ -70,6 +68,8 @@ $size: 10rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex: 1;
+    overflow: hidden;
 }
 
 .main_picture {
@@ -274,3 +274,41 @@ $size: 10rem;
     }
 
 }
+
+.left_to_right {
+    position: relative;
+    animation: slide_left 855ms ease-in-out;
+    overflow: hidden;
+
+}
+
+.right_to_left {
+    position: relative;
+    animation: slide_right 855ms ease-in-out;
+}
+
+@keyframes slide_left {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide_right {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
