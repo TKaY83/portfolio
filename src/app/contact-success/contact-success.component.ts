@@ -19,6 +19,4 @@ export class ContactSuccessComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
   }
 
-
-
 }

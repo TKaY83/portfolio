@@ -5,7 +5,6 @@ h3 {
     color: #FA2759;
 }
 
-
 .my_work_section {
     background-color: black;
     // height: 100vh;
@@ -49,10 +48,7 @@ h3 {
         color: white;
         border-color: #FA2759;
         box-shadow: 0px $size * 0.3 $size 0px rgba(#FA2759, 0.8); 
-
     }
-
-
 }
 
 .toggle_hover{
@@ -67,6 +63,7 @@ h3 {
     justify-content: center;
     align-items: center;
     height: 70%;
+    overflow: hidden;
 }
 
 
@@ -123,7 +120,6 @@ h3 {
     }
 }
 
-
 .skill_preview_img {
     position: absolute;
     top: 0%;
@@ -161,7 +157,6 @@ h3 {
     }
 }
 
-
 @media (max-width: 360px) {
 
     .button_pink {
@@ -173,8 +168,5 @@ h3 {
         min-width:260px;
         max-width: 260px;
     }
-
-
-
 }
 
