@@ -1,4 +1,4 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 import {
   trigger,
   state,
@@ -7,6 +7,9 @@ import {
   transition,
   // ...
 } from '@angular/animations';
+
+import * as AOS from 'aos';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,6 +18,9 @@ import {
     // animation triggers go here
   ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  ngOnInit(): void {
+    AOS.init();
+  }
   title = 'portfolio';
 }
