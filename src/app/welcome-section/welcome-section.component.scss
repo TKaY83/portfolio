@@ -129,7 +129,7 @@ $size: 10rem;
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1005px) {
     .welcome_text {
         font-size: 44px;
     }
@@ -262,6 +262,7 @@ $size: 10rem;
 
     .welcome_text {
         font-size: 20px;
+        margin-left: 16px;
     }
 
     .main_picture {
