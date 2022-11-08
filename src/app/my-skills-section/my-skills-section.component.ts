@@ -32,10 +32,6 @@ export class MySkillsSectionComponent implements OnInit {
       name: 'GIT / GITHUB'
     },
     {
-      icon: 'Group.png',
-      name: 'Design Thinking'
-    },
-    {
       icon: 'icons8-rest-api-80 2.png',
       name: 'Rest API'
     },
@@ -43,6 +39,10 @@ export class MySkillsSectionComponent implements OnInit {
       icon: 'firebase.png',
       name: 'Firebase'
     },
+    {
+      icon: 'windows-logo.png',
+      name: 'MS Windows'
+    }
   ];
   constructor() { }
 

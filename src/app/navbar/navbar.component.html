@@ -1,19 +1,22 @@
-<div class="navbar absoulute">
-    <a href=""><img src="assets/img/td_logo_white.png"></a>
-    <div class="navbar_menu">
-        <a href="">HOME</a>
-        <a href="#my_skills">SKILLS</a>
-        <a href="#my_work">MY WORK</a>
-        <a href="#about_me">ABOUT</a>
+<div class="navbar">
+    <div class="navbar_div">
+        <a href=""><img src="assets/img/td_logo_white.png"></a>
+        <div class="navbar_menu">
+            <a href="">HOME</a>
+            <a href="#my_skills">SKILLS</a>
+            <a href="#my_work">MY WORK</a>
+            <a href="#about_me">ABOUT</a>
+        </div>
     </div>
     <div class="navbar_burger">
-        <img src="assets\img\menu.png" mat-button [matMenuTriggerFor]="menu">
-        <mat-menu class="navbar_burger" #menu="matMenu">
-            <a mat-menu-item href="">HOME</a>
-            <a mat-menu-item href="#my_skills">SKILLS</a>
-            <a mat-menu-item href="#my_work">MY WORK</a>
-            <a mat-menu-item href="#about_me">ABOUT ME</a>
-        </mat-menu>
+        <div class="navbar_burger_div">
+            <img src="assets\img\menu.png" mat-button [matMenuTriggerFor]="menu">
+            <mat-menu class="navbar_burger" #menu="matMenu">
+                <a mat-menu-item href="">HOME</a>
+                <a mat-menu-item href="#my_skills">SKILLS</a>
+                <a mat-menu-item href="#my_work">MY WORK</a>
+                <a mat-menu-item href="#about_me">ABOUT ME</a>
+            </mat-menu>
+        </div>
     </div>
-
 </div>

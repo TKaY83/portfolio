@@ -1,6 +1,6 @@
 .imprint_body{
     padding-top: 80px;
-    height: 100vh;
+    height: calc(100vh - 160px);
     text-align: center;
     background-color: black;
     color: white;
@@ -54,8 +54,22 @@ p{
         font-size: 16px;
     }
 }
+@media (max-width: 480px) {
+    .imprint_body{
+        height: 100%;
+    }
+}
+@media (max-width: 950px) {
+    .imprint_body{
+        height: 100%;
+    }
+}
 
-@media (orientation: landscape){
+@media (max-width: 480px) and (orientation: landscape){
+
+    .imprint_body{
+        height: 100%;
+    }
     h1{
         font-size: 24px;
     }

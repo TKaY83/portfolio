@@ -26,8 +26,13 @@ h4 {
     background-color: black;
 }
 
+.contact_me_section_div{
+    width: 1155px;
+}
+
 .section_distance {
-    padding: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .top_section {
@@ -106,6 +111,45 @@ h4 {
         box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.4);
     }
 }
+
+@media (max-width: 1500px) {
+
+    .contact_me_section_div {
+        width: 945px;
+    }
+
+}
+
+@media (max-width: 1040px) {
+
+    .contact_me_section_div {
+        width: 700px;
+    }
+
+}
+@media (max-width: 850px) {
+
+    .contact_me_section_div {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .sendbutton_div{
+        justify-content: center;
+    }
+
+}
+@media (max-width: 500px) {
+
+    .contact_me_section_div {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+}
+
+
+
 
 @media (max-width: 410px) {
     h1 {

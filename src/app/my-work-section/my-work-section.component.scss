@@ -47,14 +47,14 @@ h3 {
         background-color: #FA2759;
         color: white;
         border-color: #FA2759;
-        box-shadow: 0px $size * 0.3 $size 0px rgba(#FA2759, 0.8); 
+        box-shadow: 0px $size * 0.3 $size 0px rgba(#FA2759, 0.8);
     }
 }
 
-.toggle_hover{
-    background-color: #FA2759 !important ;
-    color: white !important ;
-    border-color: #FA2759 !important ;
+.toggle_hover {
+    background-color: #FA2759 !important;
+    color: white !important;
+    border-color: #FA2759 !important;
 }
 
 
@@ -70,8 +70,7 @@ h3 {
 .preview_div {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 1000px;
+    width: 1155px;
 }
 
 .skill_preview_div {
@@ -130,11 +129,56 @@ h3 {
     z-index: -1;
 }
 
+@media (max-width: 1500px) {
 
-@media (max-width: 410px) {
+    .preview_div {
+        width: 945px;
+        flex-wrap: wrap;
+    }
 
-    .my_work_text{
+}
+
+@media (max-width: 1040px) {
+
+    .preview_div {
+        width: 700px;
+    }
+
+}
+
+// @media (max-width: 850px) {
+
+//     a {
+//         margin-left: 0px;
+//     }
+
+//     .navbar_menu {
+//         display: none;
+//     }
+
+//     .navbar_burger {
+//         display: block;
+//     }
+
+//     .navbar {
+//         justify-content: space-around;
+//     }
+
+//     .navbar_div {
+//         width: unset;
+//     }
+// }
+
+
+@media (max-width: 480px) {
+
+    .my_work_text {
         font-size: 28px;
+    }
+
+    .button_try {
+        padding: 16px;
+        margin-top: 12px;
     }
 
     .button_pink {
@@ -144,12 +188,24 @@ h3 {
     .skill_preview_div {
         margin-left: 8px;
         margin-right: 8px;
-        min-width:320px;
+        min-width: 320px;
         max-width: 320px;
+    }
+
+    .buttons_div{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button_pink {
+        padding: 8px;
+        font-size: 24px;
+        margin-bottom: 8px;
     }
 
     .skill_preview_div {
         transform: scale(0.9);
+
     }
 
     .preview_div {
@@ -157,16 +213,17 @@ h3 {
     }
 }
 
-@media (max-width: 360px) {
-
-    .button_pink {
-        padding: 4px;
-        font-size: 12px;
-    }
+@media (max-width: 480px) and (orientation: landscape) {
 
     .skill_preview_div {
-        min-width:260px;
-        max-width: 260px;
+        height: 200px;
     }
 }
 
+@media (max-width: 360px) {
+
+    .skill_preview_div {
+        min-width: 260px;
+        max-width: 260px;
+    }
+}
