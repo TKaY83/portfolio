@@ -1,36 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    font-family: monospace, sans-serif;
-}
-html, body { height: 100%; }
-
-.mat-menu-panel{
-    background-color: black;
+body {
+  margin: 0;
+  font-family: monospace, sans-serif;
 }
 
-.transition{
-    transition: 225ms ease-in-out;
+html,
+body {
+  height: 100%;
+}
+
+.mat-menu-panel {
+  background-color: black;
+}
+
+:root {
+  --main-color: #FA2759;
+  --main-color-rgb: 250, 39, 89;
+  --secondary-color: #2DFCD8;
+  --secondary-color-rgb: 45, 252, 2166
+}
+
+.transition {
+  transition: 225ms ease-in-out;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #FA2759;;
-    border-radius: 10px;
-  }
+  width: 8px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 10px;
+}

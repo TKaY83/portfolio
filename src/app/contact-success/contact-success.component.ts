@@ -11,7 +11,7 @@ export class ContactSuccessComponent implements OnInit, AfterViewInit {
   constructor(private router: Router) { }
   ngAfterViewInit(): void {
     setTimeout(() => {
-      debugger
+      // debugger
       this.router.navigateByUrl('');
     }, 6000);
   }

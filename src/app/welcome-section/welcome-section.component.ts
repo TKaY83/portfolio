@@ -54,6 +54,7 @@ export class WelcomeSectionComponent implements OnInit {
     this.startAnimation($event);
     this.endAnimation($event);
   }
+  
   end($event) {
     const { background, element } = this.getChilds($event);
     this.startAnimation($event);

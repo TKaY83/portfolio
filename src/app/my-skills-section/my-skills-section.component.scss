@@ -28,7 +28,6 @@
 }
 
 .bottom_section {
-    // height: 80%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -39,8 +38,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    // padding-left: 210px;
-    // padding-right: 210px;
     overflow-x: hidden;
     width: 1155px;
 }
@@ -66,7 +63,6 @@
     margin-top: -30px;
     margin-bottom: 15px;
     display: flex;
-    // border: 1px solid rgb(191, 189, 189);
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
     justify-content: center;
     align-items: center;

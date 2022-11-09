@@ -2,14 +2,14 @@ $size: 10rem;
 
 a {
     text-decoration: none;
-    color: #2DFCD8;
+    color: var(--secondary-color);
 }
 
 h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 54px;
-    color: #2DFCD8;
+    color: var(--secondary-color);
 }
 
 h4 {
@@ -96,19 +96,19 @@ h4 {
     cursor: pointer;
     background-color: transparent;
     font-size: 18px;
-    border-color: #2DFCD8;
+    border-color: var(--secondary-color);
     border: 2px solid;
-    color: #2DFCD8;
+    color: var(--secondary-color);
     padding: 24px;
     padding-left: 88px;
     padding-right: 88px;
     width: 230px;
 
     &:hover {
-        background-color: #2DFCD8;
+        background-color: var(--secondary-color);
         color: white;
-        border-color: #2DFCD8;
-        box-shadow: 0px $size * 0.3 $size 0px rgba(#2DFCD8, 0.4);
+        border-color: var(--secondary-color);
+        box-shadow: 0px $size * 0.3 $size 0px rgba(var(--secondary-color-rgb), 0.4);
     }
 }
 
