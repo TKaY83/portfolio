@@ -127,6 +127,21 @@ h3 {
     cursor: pointer;
     object-fit: cover;
     z-index: -1;
+
+    // &:last-child{
+    //     object-position: left;
+    // }
+}
+
+.skill_preview_img_last {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    z-index: -1;
+    object-position: left;
 }
 
 @media (max-width: 1500px) {
